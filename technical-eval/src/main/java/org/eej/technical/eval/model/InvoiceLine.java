@@ -8,7 +8,7 @@ import java.math.BigDecimal;
 import java.math.RoundingMode;
 
 /**
- * @author Mikel
+ * @author DOIBALMI
  *
  */
 public class InvoiceLine implements Serializable {
