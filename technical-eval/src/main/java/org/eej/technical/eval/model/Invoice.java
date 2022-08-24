@@ -12,7 +12,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 /**
- * @author DOIBALMI
+ * @author Mikel
  *
  */
 public class Invoice implements Serializable {
