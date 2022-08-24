@@ -21,7 +21,7 @@ import org.eej.technical.eval.model.InvoiceLine;
 import org.junit.Test;
 
 /**
- * @author Mikel
+ * @author DOIBALMI
  *
  */
 public class InvoiceTest {

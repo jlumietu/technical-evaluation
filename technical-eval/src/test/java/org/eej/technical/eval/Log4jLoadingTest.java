@@ -8,7 +8,7 @@ import org.apache.logging.log4j.Logger;
 import org.junit.Test;
 
 /**
- * @author Mikel
+ * @author DOIBALMI
  *
  */
 public class Log4jLoadingTest {
