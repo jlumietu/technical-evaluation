@@ -21,11 +21,30 @@ import org.eej.technical.eval.model.InvoiceLine;
 import org.junit.Test;
 
 /**
+ * <p>
+ * This is the test class which performs the tasks to achieve the completion of the proposed exercise. 
+ * It has been built as a JUnit test.
+ * </p>
+ * <p>
+ * The output file is generated with the name {@value #OUTPUT_RECEIPT_TXT} whilst it can be seen
+ * in the generated log output at the same time.
+ * </p>
+ * <p>
+ * The input is provided as the constant variable {@link #INVOICES}.
+ * </p>
+ * <p>
+ * The output of the last invoice (#3) differs from what was expected, but after several checks, no 
+ * error has been found on the strategy used to solve the whole exercise.
+ * </p> 
+ * 
+ * 
  * @author Mikel Ibiricu Alfaro
  *
  */
 public class InvoiceTest {
 	
+	private static final String OUTPUT_RECEIPT_TXT = "output-receipt.txt";
+
 	private static Logger logger = LogManager.getLogger();
 
 	private static final List<Invoice> INVOICES = 
@@ -119,14 +138,14 @@ public class InvoiceTest {
 	@Test
 	public void test() {
 		String dir = System.getProperty("user.dir");
-		Path path = Paths.get(dir, "target","output-receipt.txt");
+		Path path = Paths.get(dir, "target",OUTPUT_RECEIPT_TXT);
 		if(path.toFile().exists()) {
 			path.toFile().delete();
 		}
 		
 		for(Invoice invoice : INVOICES) {
 			String info = invoice.getInfo();
-			logger.debug(info);
+			logger.debug(System.lineSeparator() +  info);
 			try {
 				Files.write(
 						path, 
