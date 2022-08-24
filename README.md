@@ -90,5 +90,5 @@ Sales Taxes: 6.70
 Total: 74.68
 </pre>
 <p>
-The solution is provided as a JUnit test available at technical-eval/src/test/java/org/eej/technical/eval/InvoiceTest.java
+The solution is provided as a JUnit test available at <a href"https://github.com/jlumietu/technical-evaluation/blob/main/technical-eval/src/test/java/org/eej/technical/eval/InvoiceTest.java"> technical-eval/src/test/java/org/eej/technical/eval/InvoiceTest.java</a>
 </p>
