@@ -8,7 +8,7 @@ import java.math.BigDecimal;
 import java.math.RoundingMode;
 
 /**
- * @author Mikel
+ * @author Mikel Ibiricu Alfaro
  *
  */
 public enum SalesTax implements Serializable {

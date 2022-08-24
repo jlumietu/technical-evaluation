@@ -15,7 +15,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 /**
- * @author Mikel
+ * @author Mikel Ibiricu Alfaro
  *
  */
 public class Good implements Serializable {
